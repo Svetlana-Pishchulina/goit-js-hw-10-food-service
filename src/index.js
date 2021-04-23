@@ -1,6 +1,6 @@
-import '../sass/styles.scss';
-import menuMarkupTemplates from '../templates/gallery-items.hbs';
-import dishes from '../menu.json';
+import './sass/styles.scss';
+import menuMarkupTemplates from './templates/gallery-items.hbs';
+import dishes from './menu.json';
 const menuEl = document.querySelector('.js-menu');
 const markup = menuMarkupTemplates(dishes);
 menuEl.insertAdjacentHTML('beforeend', markup);
